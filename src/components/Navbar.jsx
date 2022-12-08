@@ -13,13 +13,13 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
   //sideBar 의 설정 left 상태
   const navigate = useNavigate();
   const menuList = [
-    "여성",
-    "Divided",
     "남성",
-    "신생아/유아",
-    "아동",
-    "H&M HOME",
-    "스포츠",
+    "여성",
+    "키즈 & 베이비",
+    "홈",
+    "기프트",
+    "WORLD OF",
+    "홀리데이",
     "Sale",
     "지속가능성",
   ];
@@ -79,7 +79,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
       <h1>
         <Link to="/">
           <div className="img_wrap">
-            <img width={90} src="/img/HM-Logo.png" alt="H&M" />
+            <img width={300} src="/img/Polo-Logo.jpg" alt="Polo" />
           </div>
         </Link>
       </h1>
